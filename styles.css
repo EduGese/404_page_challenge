@@ -1,0 +1,117 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  padding-top: 40px;
+  padding-left: 77px;
+  font-family: Inconsolata;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.92px;
+  text-transform: uppercase;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 250px 119px 250px 77px;
+  column-gap: 118.7808px;
+  box-sizing: border-box;
+}
+
+.img {
+  width: 539.2208px;
+  max-width: 100%;
+  height: auto;
+}
+.textContainer {
+  text-align: left;
+}
+.title2 {
+  color: var(--Gray-1, #333);
+  font-family: Space Mono;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.24px;
+}
+.text {
+  color: var(--Gray-2, #4f4f4f);
+  font-family: Space Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.84px;
+  width: 381px;
+  margin-top: 36px;
+}
+.button {
+  width: 216px;
+  height: 68px;
+  flex-shrink: 0;
+  background: var(--Gray-1, #333);
+  color: #fff;
+  font-family: Space Mono;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.4896px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 64px 0;
+}
+footer {
+  text-align: center;
+  margin-top: auto;
+}
+a{
+  text-decoration: none;
+  color:#FF6D5B;
+}
+@media (max-width: 1339px) {
+  .gridContainer {
+    display: block;
+    margin: 32px;
+  }
+}
+@media (max-width: 375px) {
+  .gridContainer {
+    display: block;
+    margin: 32px;
+  }
+
+  .title {
+    padding-top: 16px;
+    padding-left: 32px;
+    font-size: 19.2px;
+    width: 350px;
+  }
+
+  .title2 {
+    color: var(--Gray-1, #333);
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.68px;
+    width: 350px;
+  }
+
+  .text {
+    color: var(--Gray-2, #4f4f4f);
+    font-family: Space Mono;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.63px;
+    width: 328px;
+  }
+}
